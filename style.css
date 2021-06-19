@@ -1,0 +1,54 @@
+body { background-color: lavender;}
+
+.start-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+
+ button {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    padding: 10px 10px 10px;
+    border-radius: 10px 10px;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background-color: thistle;
+    color: rebeccapurple;
+    transition: all 0.3s ease;
+
+   
+     
+    
+
+}
+
+ .quiz-rule{
+   position: absolute;
+   align-items: center;
+   top: 38%;
+   left: 38%;
+   font-size: 20px;
+    
+   
+  
+    
+}
+
+ .quiz-title {
+     position: absolute;
+     align-items: center;
+     top: 30%;
+     left: 47%;
+     font-size: x-large;
+     margin-bottom: 35px;
+    
+
+ }
