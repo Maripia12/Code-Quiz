@@ -77,9 +77,6 @@ function startQuiz () {
 
 
 
-    //quiz  = document.getElementById('questionBox[0]');
-    let selections = document.getElementById('options');
-    let userChoice = document.getElementById('result');
 
 
      questionCounter++
