@@ -23,6 +23,8 @@ body { background-color: lavender;}
 
 }
 
+
+
 button:hover {
     background-color: thistle;
     color: rebeccapurple;
@@ -60,7 +62,7 @@ button:hover {
 .quiz-title span {
 
       font-size: 30px;
-      
+
 }
 
 .timer {
@@ -75,4 +77,7 @@ button:hover {
 
  }
   
+ .hide {
+     display: none;
+ }
  

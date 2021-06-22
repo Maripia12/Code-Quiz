@@ -1,85 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Code Quiz</title>
 
-    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="style.CSS" />
+  </head>
 
-</head>
-
-
-<body>
+  <body>
     <!-- start button -->
+    <section id= first-slide>
+    
+    
 
-<div class="start-btn"><button id = "start-quiz">Start Quiz</button></div>
+
+    <div class="start-btn"><button id="start-quiz">Start Quiz</button></div>
 
     <!--quiz intro-->
 
-
-<div class= "quiz-title">
-
-        <span><strong>Coding Quiz Challenge</strong></span>
-
+    <div class="quiz-title">
+      <span><strong>Coding Quiz Challenge</strong></span>
     </div>
 
     <div class="quiz-rule">
+      <div>
+        Try to answer the following code-related questions within the time
+        limit.
+      </div>
+      <div>
+        Keep in mind that incorrect answers will penalize your score time by 10
+        seconds.
+      </div>
+    </div>
+     </section>
 
-        <div>Try to answer the following code-related questions within the time limit. </div> 
-      <div>Keep in mind that incorrect answers will penalize your score time by 10 seconds. </div> 
+    <div class="score-info">
+      <nav>
+        <a href="./highscores.html" class="view-score"><strong>View Highscores</strong></a>
 
+        <div class="timer"><strong>Time</strong></div>
+      </nav>
     </div>
 
 
+    <section id= "high-scores" class="hide">
 
-<div class="score-info"> 
+      <div class="submit-btn"><button id="submit">Submit</button></div>
 
-   <nav> 
+      <div class="clear-btn"><button id="clear">Clear Highscores</button></div>
 
-    <div class = "view-score"><strong>View Highscores</strong></div>
+      <div class="go-back-btn"><button id="back">Go back</button></div>
+    </section>
 
-    <div class = "timer"><strong>Time</strong></div>
+    <section id= "quiz-area" class="hide"> 
+        <h2> question</h2>
+        <button>option1</button>
+        <button>option1</button>
+        <button>option1</button> 
+        <button>option1</button>
+    </section>
 
-   </nav>
-
-
-</div>
-
-
-<section> 
-
-
-    <div class="submit-btn"><button>Submit</button></div>
-
-    <div class="clear-btn"><button>Clear Highscores</button></div>
-
-     <div class="go-back-btn"><button>Go back</button></div>
-
- 
-</section>
-
-     
-
-       
-     
-
- 
- 
-
-
-
-
-
-
-<script type="text/javascript" src="./assets/js/script.js"></script>
-    
-</body>
-
-
-
-
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>

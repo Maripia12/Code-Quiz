@@ -1,6 +1,6 @@
 var questionBox= [
 
-    { question1: "Commonly used data types Do Not include:",
+    { question: "Commonly used data types Do Not include:",
       options : ['Strings','boolean','alerts','numbers'],
       answer :  'alerts',
 
@@ -8,7 +8,7 @@ var questionBox= [
 
 
  
-    { question2: "The condition in an if/else statement is enclosed within___.",
+    { question: "The condition in an if/else statement is enclosed within___.",
       options : ['quotes','curly brackets','parentheses','square brackets'],
       answer :  'parentheses',
 
@@ -16,7 +16,7 @@ var questionBox= [
 
 
  
-    { question3: "Arrays in JavaScript can be used to store_____:",
+    { question: "Arrays in JavaScript can be used to store_____:",
       options : ['number and strings',' other arrays','booleans',' all of the above'],
       answer :  'all of the above',
 
@@ -24,7 +24,7 @@ var questionBox= [
 
 
  
-    { question4: "String values must be enclosed within ____ when being assigned to variables.",
+    { question: "String values must be enclosed within ____ when being assigned to variables.",
       options : ['commas','curly brackets','quotes','parentheses'],
       answer :  'curly brackets',
 
@@ -32,22 +32,32 @@ var questionBox= [
 
 
  
-    { question5: "A very useful tool used during development and debugging for printing content to the debugger is:",
+    { question: "A very useful tool used during development and debugging for printing content to the debugger is:",
       options : ['Javascript','Terminal-bash','for loops','Console.log'],
       answer :  'Console.log',
 
     }
 ]
-var startBtn = document.querySelector( question1);
+var startBtn = document.querySelector("#start-quiz");
 
-var question = document.getElementById('question1')
-var options = document.getElementById('options')
-var answer = document.getElementById('answer')
+var firstSlide = document.querySelector("#first-slide")
+var quizArea = document.querySelector("#quiz-area")
 
-function result () {
+
+
+var answerChoice = ("");
+
+function startQuiz () {
+     
+    firstSlide.classList.add("hide")
+    quizArea.classList.remove("hide")
+
+    // questionBox[0].question[1].
+
+
 
 }
 
 
 
-startBtn.addEventListener("click" , startQuiz );
+startBtn.addEventListener("click" , startQuiz);
