@@ -23,4 +23,4 @@
 
  -----
 
- ![screenshot](Assets\quiz-image.jpg)
+ ![screenshot](Assets/quiz-image.jpg)
