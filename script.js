@@ -2,7 +2,7 @@ var questionBox= [
 
     { question: "Commonly used data types Do Not include:",
       options : ['Strings','boolean','alerts','numbers'],
-      answer :  'alerts',
+      result :  'alerts',
 
     },
 
@@ -10,7 +10,7 @@ var questionBox= [
  
     { question: "The condition in an if/else statement is enclosed within___.",
       options : ['quotes','curly brackets','parentheses','square brackets'],
-      answer :  'parentheses',
+      result :  'parentheses',
 
     },
 
@@ -18,7 +18,7 @@ var questionBox= [
  
     { question: "Arrays in JavaScript can be used to store_____:",
       options : ['number and strings',' other arrays','booleans',' all of the above'],
-      answer :  'all of the above',
+      result :  'all of the above',
 
     },
 
@@ -26,7 +26,7 @@ var questionBox= [
  
     { question: "String values must be enclosed within ____ when being assigned to variables.",
       options : ['commas','curly brackets','quotes','parentheses'],
-      answer :  'curly brackets',
+      result :  'curly brackets',
 
     },
 
@@ -34,7 +34,7 @@ var questionBox= [
  
     { question: "A very useful tool used during development and debugging for printing content to the debugger is:",
       options : ['Javascript','Terminal-bash','for loops','Console.log'],
-      answer :  'Console.log',
+      result :  'Console.log',
 
     }
 ]
@@ -54,10 +54,17 @@ function startQuiz () {
 
     // questionBox[0].question[1].
 
+    
+    
+    let question1 = document.getElementById('questionBox[0]');
+    let selections = document.getElementById('options');
+    let userChoice = document.getElementById('result');
+
+
+     
 
 
 }
 
-
-
 startBtn.addEventListener("click" , startQuiz);
+

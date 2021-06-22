@@ -11,7 +11,9 @@
 
  * Once the start button is clicked the user is presented with a question and a list of four options to select their answer from. 
 
- * 
+ * 'Correct' or 'Wrong' will display right below.  If wrong appears than the time will deduct 10 seconds. 
+
+ *  
 
 
 

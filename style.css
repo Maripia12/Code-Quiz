@@ -81,3 +81,39 @@ button:hover {
      display: none;
  }
  
+ #quiz-area h2 { 
+    
+    position: absolute;
+    top: 25%;
+    left: 35%;
+
+
+ }
+
+   {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+
+
+   }
+
+   #btn-options {
+       padding: 5px 40px 5px ;
+       margin: 10px;
+       position: relative;
+       display: list-item;
+       left: 35%;
+       top: 250px;
+       
+
+
+       
+      
+        
+       
+
+        
+       
+     
+   }
