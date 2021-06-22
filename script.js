@@ -42,7 +42,8 @@ var startBtn = document.querySelector("#start-quiz");
 
 var firstSlide = document.querySelector("#first-slide")
 var quizArea = document.querySelector("#quiz-area")
-
+var buttonReference = document.querySelector("#quiz-area > button")
+let questionCounter = 0
 
 
 var answerChoice = ("");
@@ -54,17 +55,41 @@ function startQuiz () {
 
     // questionBox[0].question[1].
 
-    
-    
-    let question1 = document.getElementById('questionBox[0]');
+    console.log ("quiz area", quizArea.children)
+   
+    let h2element = document.createElement("h2");
+    h2element.textContent=questionBox[questionCounter].question
+    quizArea.append(h2element);
+    questionBox[questionCounter].options.forEach(function(option){
+
+      let button = document.createElement("button");
+      button.textContent=option
+      button.setAttribute("onclick","answerQuestion(event)")
+      quizArea.append(button);
+
+
+
+
+    }) 
+
+
+
+
+
+
+    //quiz  = document.getElementById('questionBox[0]');
     let selections = document.getElementById('options');
     let userChoice = document.getElementById('result');
 
 
-     
+     questionCounter++
 
 
 }
 
+  function answerQuestion (event) {
+    console.log ("answer question" , questionBox[questionCounter-1].result,event.currentTarget.value)
+  }
 startBtn.addEventListener("click" , startQuiz);
+// buttonReference.addEventListener("click" , answerQuestion);
 

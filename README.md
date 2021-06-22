@@ -13,7 +13,8 @@
 
  * 'Correct' or 'Wrong' will display right below.  If wrong appears than the time will deduct 10 seconds. 
 
- *  
+ * When user is done answering questions or time reaches 0. The quiz will come to an end and initials can be typed and score saved. 
+
 
 
 
@@ -22,5 +23,7 @@
 
 
  -----
+
+
 
  ![screenshot](Assets/quiz-image.jpg)

@@ -16,8 +16,9 @@ body { background-color: lavender;}
     color: white;
     font-size: medium;
     font-weight: 300;
-    padding: 10px 10px 10px;
-    border-radius: 10px 10px;
+    padding: 15px 15px 15px;
+    border-radius: 20px 20px 20px;
+    box-shadow: 10px 10px 10px grey;
     cursor: pointer;
 
 
@@ -35,6 +36,7 @@ button:hover {
 
 
  .quiz-rule {
+
    position: absolute;
    align-items: center;
    top: 32%;
@@ -48,6 +50,7 @@ button:hover {
 
   
  .quiz-title {
+     
      position: absolute;
      align-items: center;
      font-size: 50px;
@@ -89,16 +92,12 @@ button:hover {
 
 
  }
+ 
+  
 
-   {
-    position: absolute;
-    top: 25%;
-    left: 35%;
+  
 
-
-   }
-
-   #btn-options {
+   #quiz-area > button {
        padding: 5px 40px 5px ;
        margin: 10px;
        position: relative;
@@ -106,14 +105,6 @@ button:hover {
        left: 35%;
        top: 250px;
        
+ }
 
-
-       
-      
-        
-       
-
-        
-       
-     
-   }
+ 
