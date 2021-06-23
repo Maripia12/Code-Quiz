@@ -53,7 +53,7 @@ function startQuiz () {
     firstSlide.classList.add("hide")
     quizArea.classList.remove("hide")
 
-    // questionBox[0].question[1].
+ 
 
     console.log ("quiz area", quizArea.children)
    
@@ -88,5 +88,6 @@ function startQuiz () {
     console.log ("answer question" , questionBox[questionCounter-1].result,event.currentTarget.value)
   }
 startBtn.addEventListener("click" , startQuiz);
+
 // buttonReference.addEventListener("click" , answerQuestion);
 
