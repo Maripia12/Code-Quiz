@@ -2,7 +2,7 @@ var questionBox= [
 
     { question: "Commonly used data types Do Not include:",
       options : ['Strings','Boolean','Alerts','Numbers'],
-      result :  'alerts',
+      result :  'Alerts',
 
     },
 
@@ -10,7 +10,7 @@ var questionBox= [
  
     { question: "The condition in an if/else statement is enclosed within___.",
       options : ['Quotes','Curly brackets','Parentheses','Square brackets'],
-      result :  'parentheses',
+      result :  'Parentheses',
 
     },
 
@@ -18,7 +18,7 @@ var questionBox= [
  
     { question: "Arrays in JavaScript can be used to store_____:",
       options : ['Number and strings',' Other arrays','Booleans',' All of the above'],
-      result :  'all of the above',
+      result :  'All of the above',
 
     },
 
@@ -26,7 +26,7 @@ var questionBox= [
  
     { question: "String values must be enclosed within ____ when being assigned to variables.",
       options : ['Commas','Curly brackets','Quotes','Parentheses'],
-      result :  'curly brackets',
+      result :  'Curly brackets',
 
     },
 
