@@ -16,9 +16,6 @@
 
     <section id= first-slide>
     
-    
-
-
     <div class="start-btn"><button id="start-quiz">Start Quiz</button></div>
 
     <!--quiz intro-->
@@ -37,33 +34,58 @@
         seconds.
       </div>
     </div>
+
      </section>
 
+     <section id="quiz-area" class="hide">
+
+        
+         <h2 id= "question"> Commonly used data types Do Not include:</h2>
+
+         <button id="choiceA" onclick="answerQuestion(choiceA.innerHTML)">Strings</button> 
+         <button id="choiceB" onclick="answerQuestion(choiceB.innerHTML)">boolean</button> 
+         <button id="choiceC" onclick="answerQuestion(choiceC.innerHTML)">Alerts</button> 
+         <button id="choiceD" onclick="answerQuestion(choiceD.innerHTML)">Numbers</button> 
+
+     </section>
+
+      <section id="scores">
+
+            Correct: <span id="answersCorrect">0</span>
+            wrong: <span id="answersWrong">0</span>
+
+      </section>  
+
     <div class="score-info">
-      <nav>
+
+      <nav> 
+
         <a href="./highscores.html" class="view-score"><strong>View Highscores</strong></a>
 
-        <div class="timer"><strong>Time</strong></div>
+        <div class="timer" id= "timer"><strong>Time</strong></div>
+
       </nav>
+
     </div>
 
 
-    <section id= "high-scores" class="hide">
+
+    <section id="high-scores" class="hide">
+
 
       <div class="submit-btn"><button id="submit">Submit</button></div>
 
       <div class="clear-btn"><button id="clear">Clear Highscores</button></div>
 
       <div class="go-back-btn"><button id="back">Go back</button></div>
+
+
+ 
     </section>
 
-    <section id= "quiz-area" class="hide"> 
-
-       
-        
-        
-    </section>
 
     <script type="text/javascript" src="./script.js"></script>
+
   </body>
+
 </html>
